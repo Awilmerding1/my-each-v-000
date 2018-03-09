@@ -5,7 +5,6 @@ def my_each(array)
  yield(array[i])
   i += 1 
 else puts "This block should not run!"
-  
 end
 end
 end
